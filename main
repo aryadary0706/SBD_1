@@ -1,0 +1,298 @@
+CREATE TABLE t_Master (
+    id_kendaraan VARCHAR(8) PRIMARY KEY,
+    jenis_kendaraan VARCHAR(5),
+    deskripsi TEXT,
+    nama_pemilik VARCHAR(100)
+);
+
+CREATE TABLE t_transaksi_mobil (
+    id_transaksi VARCHAR(12) PRIMARY KEY,
+    id_kendaraan VARCHAR(8),
+    lokasi_parkir VARCHAR(50),
+    waktu TIMESTAMP default CURRENT_TIMESTAMP,
+    foreign key (id_kendaraan) references t_Master(id_kendaraan)
+);
+
+CREATE TABLE t_transaksi_motor (
+    id_transaksi VARCHAR(12) PRIMARY KEY,
+    id_kendaraan VARCHAR(8),
+    lokasi_parkir VARCHAR(50),
+    waktu TIMESTAMP default CURRENT_TIMESTAMP,
+    foreign key (id_kendaraan) references t_Master(id_kendaraan)
+);
+
+INSERT INTO t_Master (id_kendaraan, jenis_kendaraan, deskripsi, nama_pemilik)
+VALUES 
+('AB1234CD', 'mobil', 'Sedan warna hitam', 'John Doe'), --1
+('XY5678EF', 'motor', 'Motor sport warna merah', 'Jane Smith'),
+('PQ9012GH', 'mobil', 'SUV warna putih', 'Robert Brown'), --2
+('CD3456IJ', 'motor', 'Motor matic warna biru', 'Emily Davis'),
+('UV7890KL', 'mobil', 'Sedan warna silver', 'Michael Johnson'), --3
+('EF2345MN', 'motor', 'Motor bebek warna hitam', 'Sarah Williams'),
+('GH6789OP', 'mobil', 'Hatchback warna merah', 'David Taylor'), --4
+('KL0123QR', 'motor', 'Motor sport warna hijau', 'Emma Moore'),
+('MN4567ST', 'mobil', 'MPV warna biru', 'William Harris'), --5
+('OP8901UV', 'motor', 'Motor matic warna putih', 'Sophia Clark'),
+('QR2345WX', 'mobil', 'Convertible warna kuning', 'James Allen'), --6
+('ST6789YZ', 'motor', 'Motor bebek warna hijau', 'Isabella King'),
+('UV1234AB', 'mobil', 'SUV warna hitam', 'Oliver Lewis'), --7
+('WX5678CD', 'motor', 'Motor sport warna biru', 'Mia Young'),
+('YZ9012EF', 'mobil', 'Sedan warna merah', 'Ethan Scott'),--8
+('AB3456GH', 'motor', 'Motor matic warna merah', 'Charlotte Adams'),
+('CD7890IJ', 'mobil', 'Convertible warna putih', 'Amelia Wright'),--9
+('EF1234KL', 'motor', 'Motor bebek warna biru', 'Benjamin Nelson'),
+('GH5678MN', 'mobil', 'Hatchback warna hitam', 'Mason Hill'),--10
+('IJ9012OP', 'motor', 'Motor sport warna hitam', 'Harper Green'),
+('KL3456QR', 'mobil', 'MPV warna putih', 'Elijah Hall'),--11
+('MN7890ST', 'motor', 'Motor bebek warna merah', 'Abigail Baker'),
+('OP1234UV', 'mobil', 'SUV warna biru', 'Lucas Roberts'),--12
+('QR5678WX', 'motor', 'Motor matic warna kuning', 'Avery Perez'),
+('ST9012YZ', 'mobil', 'Sedan warna silver', 'Jack Campbell'),--13
+('UV3456AB', 'motor', 'Motor sport warna merah', 'Liam Murphy'),
+('WX7890CD', 'mobil', 'MPV warna hitam', 'Grace Torres'),--14
+('YZ1234EF', 'motor', 'Motor bebek warna biru', 'Henry Cook'),
+('AB5678GH', 'mobil', 'Convertible warna kuning', 'Sebastian Morgan'),--15
+('CD9012IJ', 'motor', 'Motor matic warna hijau', 'Nora Bailey'),
+('EF3456KL', 'mobil', 'Sedan warna biru', 'Logan Powell'),--16
+('GH7890MN', 'motor', 'Motor sport warna hitam', 'Aubrey Richardson'),
+('IJ1234OP', 'mobil', 'SUV warna merah', 'Daniel Reed'),--17
+('KL5678QR', 'motor', 'Motor bebek warna putih', 'Levi Sanchez'),
+('MN9012ST', 'mobil', 'Hatchback warna silver', 'Zoey Carter'),--18
+('OP3456UV', 'motor', 'Motor matic warna merah', 'Jackie Simmons'),
+('QR7890WX', 'mobil', 'Convertible warna hitam', 'Isaiah Rogers'),--19
+('ST1234YZ', 'motor', 'Motor sport warna biru', 'Scarlett Butler'),
+('UV5678AB', 'mobil', 'MPV warna putih', 'Julian Price'),--20
+('WX9012CD', 'motor', 'Motor bebek warna hijau', 'Aiden Nguyen'),
+('YZ3456EF', 'mobil', 'Sedan warna silver', 'Violet Patterson'),--21
+('AB7890GH', 'motor', 'Motor matic warna kuning', 'Caleb Ross'),
+('CD1234IJ', 'mobil', 'SUV warna hitam', 'Penelope Sanders'),--22
+('EF5678KL', 'motor', 'Motor sport warna merah', 'Lillian Bennett'),
+('GH9012MN', 'mobil', 'Hatchback warna biru', 'Samuel Brooks'),--23
+('IJ3456OP', 'motor', 'Motor bebek warna hitam', 'Aria Bryant'),
+('KL7890QR', 'mobil', 'Convertible warna putih', 'Gabriel Ford'),--24
+('MN4569OP', 'motor', 'Motor Ninja warna hitam', 'Dadang Ackerman'),
+('OP2389AD', 'mobil', 'Mobil jaguar warna kuning', 'Puff Diddy'),--25
+('RT1089AG', 'motor', 'Motor Scoopy warna putih-krem', 'Pria Sigma');
+
+select count(jenis_kendaraan) from t_master tm 
+where jenis_kendaraan = 'mobil';
+
+select count(jenis_kendaraan) from t_master tm 
+where jenis_kendaraan = 'motor';
+
+select * from t_master tm ;
+
+-- Data untuk tabel t_transaksi_mobil
+INSERT INTO t_transaksi_mobil (id_transaksi, id_kendaraan, lokasi_parkir, waktu) VALUES
+('1', 'AB1234CD', 'lantai 1', '2024-10-08 08:00:00'),
+('2', 'PQ9012GH', 'lantai 2', '2024-10-08 08:00:00'),
+('3', 'UV7890KL', 'lantai 3', '2024-10-08 08:00:00'),
+('4', 'GH6789OP', 'lantai 4', '2024-10-08 08:00:00'),
+('5', 'MN4567ST', 'rooftop', '2024-10-08 09:00:00'),
+('6', 'QR2345WX', 'Underground1', '2024-10-10 09:00:00'),
+('7', 'UV1234AB', 'Underground2', '2024-10-10 09:00:00'),
+('8', 'YZ9012EF', 'Underground3', '2024-10-10 09:00:00'),
+('9', 'CD7890IJ', 'lantai 1', '2024-10-10 10:00:00'),
+('10', 'GH5678MN', 'lantai 2', '2024-10-10 10:00:00'),
+('11', 'KL3456QR', 'lantai 3', '2024-10-10 10:00:00'),
+('12', 'OP1234UV', 'lantai 4', '2024-10-10 10:00:00'),
+('13', 'ST9012YZ', 'rooftop', '2024-10-10 11:00:00'),
+('14', 'WX7890CD', 'Underground1', '2024-10-10 11:00:00'),
+('15', 'AB5678GH', 'Underground2', '2024-10-10 11:00:00'),
+('16', 'EF3456KL', 'Underground3', '2024-10-10 11:00:00'),
+('17', 'IJ1234OP', 'lantai 1', '2024-10-10 12:00:00'),
+('18', 'MN9012ST', 'lantai 2', '2024-10-10 12:00:00'),
+('19', 'QR7890WX', 'lantai 3', '2024-10-10 12:00:00'),
+('20', 'UV5678AB', 'lantai 4', '2024-10-10 12:00:00'),
+('21', 'YZ3456EF', 'rooftop', '2024-10-10 13:00:00'),
+('22', 'CD1234IJ', 'Underground1', '2024-10-10 13:00:00'),
+('23', 'GH9012MN', 'Underground2', '2024-10-10 13:00:00'),
+('24', 'KL7890QR', 'Underground3', '2024-10-10 14:00:00'),
+('25', 'OP2389AD', 'lantai 1', '2024-10-10 14:00:00'),
+('26', 'AB1234CD', 'lantai 2', '2024-10-10 14:00:00'),
+('27', 'PQ9012GH', 'lantai 3', '2024-10-10 14:00:00'),
+('28', 'UV7890KL', 'lantai 4', '2024-10-10 15:00:00'),
+('29', 'GH6789OP', 'rooftop', '2024-10-10 15:00:00'),
+('30', 'MN4567ST', 'Underground1', '2024-10-10 15:00:00'),
+('31', 'QR2345WX', 'Underground2', '2024-10-10 15:00:00'),
+('32', 'UV1234AB', 'Underground3', '2024-10-10 16:00:00'),
+('33', 'YZ9012EF', 'lantai 1', '2024-10-10 16:00:00'),
+('34', 'CD7890IJ', 'lantai 2', '2024-10-10 16:00:00'),
+('35', 'GH5678MN', 'lantai 3', '2024-10-10 16:00:00'),
+('36', 'KL3456QR', 'lantai 4', '2024-10-10 17:00:00'),
+('37', 'OP1234UV', 'rooftop', '2024-10-10 17:00:00'),
+('38', 'ST9012YZ', 'Underground1', '2024-10-10 17:00:00'),
+('39', 'WX7890CD', 'Underground2', '2024-10-10 17:00:00'),
+('40', 'AB5678GH', 'Underground3', '2024-10-10 18:00:00'),
+('41', 'EF3456KL', 'lantai 1', '2024-10-10 18:00:00'),
+('42', 'IJ1234OP', 'lantai 2', '2024-10-10 18:00:00'),
+('43', 'MN9012ST', 'lantai 3', '2024-10-10 18:00:00'),
+('44', 'QR7890WX', 'lantai 4', '2024-10-10 19:00:00'),
+('45', 'UV5678AB', 'rooftop', '2024-10-10 19:00:00'),
+('46', 'YZ3456EF', 'Underground1', '2024-10-10 19:00:00'),
+('47', 'CD1234IJ', 'Underground2', '2024-10-10 19:00:00'),
+('48', 'GH9012MN', 'Underground3', '2024-10-10 20:00:00'),
+('49', 'KL7890QR', 'lantai 1', '2024-10-10 20:00:00'),
+('50', 'OP2389AD', 'lantai 2', '2024-10-10 20:00:00'),
+('51', 'AB1234CD', 'lantai 3', '2024-10-11 08:00:00'),
+('52', 'PQ9012GH', 'lantai 4', '2024-10-11 08:00:00'),
+('53', 'UV7890KL', 'rooftop', '2024-10-11 09:00:00'),
+('54', 'GH6789OP', 'Underground1', '2024-10-11 09:00:00'),
+('55', 'MN4567ST', 'Underground2', '2024-10-11 09:00:00'),
+('56', 'QR2345WX', 'Underground3', '2024-10-11 09:00:00'),
+('57', 'UV1234AB', 'lantai 1', '2024-10-11 10:00:00'),
+('58', 'YZ9012EF', 'lantai 2', '2024-10-11 10:00:00'),
+('59', 'CD7890IJ', 'lantai 3', '2024-10-11 10:00:00'),
+('60', 'GH5678MN', 'lantai 4', '2024-10-11 11:00:00'),
+('61', 'KL3456QR', 'rooftop', '2024-10-11 11:00:00'),
+('62', 'OP1234UV', 'Underground1', '2024-10-11 11:00:00'),
+('63', 'ST9012YZ', 'Underground2', '2024-10-11 11:00:00'),
+('64', 'WX7890CD', 'Underground3', '2024-10-11 12:00:00'),
+('65', 'AB5678GH', 'lantai 1', '2024-10-11 12:00:00'),
+('66', 'EF3456KL', 'lantai 2', '2024-10-11 12:00:00'),
+('67', 'IJ1234OP', 'lantai 3', '2024-10-11 12:00:00'),
+('68', 'MN9012ST', 'lantai 4', '2024-10-11 13:00:00'),
+('69', 'QR7890WX', 'rooftop', '2024-10-11 13:00:00'),
+('70', 'UV5678AB', 'Underground1', '2024-10-11 13:00:00'),
+('71', 'YZ3456EF', 'Underground2', '2024-10-11 13:00:00'),
+('72', 'CD1234IJ', 'Underground3', '2024-10-11 14:00:00'),
+('73', 'GH9012MN', 'lantai 1', '2024-10-11 14:00:00'),
+('74', 'KL7890QR', 'lantai 2', '2024-10-11 14:00:00'),
+('75', 'OP2389AD', 'lantai 3', '2024-10-11 14:00:00'),
+('76', 'AB1234CD', 'lantai 4', '2024-10-11 15:00:00'),
+('77', 'PQ9012GH', 'rooftop', '2024-10-11 15:00:00'),
+('78', 'UV7890KL', 'Underground1', '2024-10-11 15:00:00'),
+('79', 'GH6789OP', 'Underground2', '2024-10-11 15:00:00'),
+('80', 'MN4567ST', 'Underground3', '2024-10-11 16:00:00'),
+('81', 'QR2345WX', 'lantai 1', '2024-10-11 16:00:00'),
+('82', 'UV1234AB', 'lantai 2', '2024-10-11 16:00:00'),
+('83', 'YZ9012EF', 'lantai 3', '2024-10-11 16:00:00'),
+('84', 'CD7890IJ', 'lantai 4', '2024-10-11 17:00:00'),
+('85', 'GH5678MN', 'rooftop', '2024-10-11 17:00:00'),
+('86', 'KL3456QR', 'Underground1', '2024-10-11 17:00:00'),
+('87', 'OP1234UV', 'Underground2', '2024-10-11 17:00:00'),
+('88', 'ST9012YZ', 'Underground3', '2024-10-11 18:00:00'),
+('89', 'WX7890CD', 'lantai 1', '2024-10-11 18:00:00'),
+('90', 'AB5678GH', 'lantai 2', '2024-10-11 18:00:00'),
+('91', 'EF3456KL', 'lantai 3', '2024-10-11 18:00:00'),
+('92', 'IJ1234OP', 'lantai 4', '2024-10-11 19:00:00'),
+('93', 'MN9012ST', 'rooftop', '2024-10-11 19:00:00'),
+('94', 'QR7890WX', 'Underground1', '2024-10-11 19:00:00'),
+('95', 'UV5678AB', 'Underground2', '2024-10-11 19:00:00'),
+('96', 'YZ3456EF', 'Underground3', '2024-10-11 20:00:00'),
+('97', 'CD1234IJ', 'lantai 1', '2024-10-11 20:00:00'),
+('98', 'GH9012MN', 'lantai 2', '2024-10-11 20:00:00'),
+('99', 'KL7890QR', 'lantai 3', '2024-10-11 20:00:00'),
+('100', 'OP2389AD', 'lantai 4', '2024-10-11 20:00:00');
+
+
+delete from t_transaksi_mobil ;
+
+select * from t_transaksi_mobil ttm ;
+
+-- Data untuk tabel t_transaksi_motor
+INSERT INTO t_transaksi_motor (id_transaksi, id_kendaraan, lokasi_parkir, waktu) VALUES
+('1', 'XY5678EF', 'lantai 1', '2024-10-10 08:00:00'),
+('2', 'CD3456IJ', 'lantai 2', '2024-10-10 08:00:00'),
+('3', 'EF2345MN', 'lantai 3', '2024-10-10 08:00:00'),
+('4', 'KL0123QR', 'lantai 4', '2024-10-10 09:00:00'),
+('5', 'OP8901UV', 'rooftop', '2024-10-10 09:00:00'),
+('6', 'ST6789YZ', 'Underground1', '2024-10-10 09:00:00'),
+('7', 'WX5678CD', 'Underground2', '2024-10-10 10:00:00'),
+('8', 'AB3456GH', 'Underground3', '2024-10-10 10:00:00'),
+('9', 'EF1234KL', 'lantai 1', '2024-10-10 10:00:00'),
+('10', 'IJ9012OP', 'lantai 2', '2024-10-10 11:00:00'),
+('11', 'MN7890ST', 'lantai 3', '2024-10-10 11:00:00'),
+('12', 'QR5678WX', 'lantai 4', '2024-10-10 11:00:00'),
+('13', 'UV3456AB', 'rooftop', '2024-10-10 12:00:00'),
+('14', 'YZ1234EF', 'Underground1', '2024-10-10 12:00:00'),
+('15', 'CD9012IJ', 'Underground2', '2024-10-10 12:00:00'),
+('16', 'GH7890MN', 'Underground3', '2024-10-10 13:00:00'),
+('17', 'KL5678QR', 'lantai 1', '2024-10-10 13:00:00'),
+('18', 'OP3456UV', 'lantai 2', '2024-10-10 13:00:00'),
+('19', 'ST1234YZ', 'lantai 3', '2024-10-10 14:00:00'),
+('20', 'WX9012CD', 'lantai 4', '2024-10-10 14:00:00'),
+('21', 'AB7890GH', 'rooftop', '2024-10-10 14:00:00'),
+('22', 'EF5678KL', 'Underground1', '2024-10-10 15:00:00'),
+('23', 'IJ3456OP', 'Underground2', '2024-10-10 15:00:00'),
+('24', 'MN4569OP', 'Underground3', '2024-10-10 15:00:00'),
+('25', 'RT1089AG', 'lantai 1', '2024-10-10 16:00:00'),
+('26', 'XY5678EF', 'lantai 2', '2024-10-10 16:00:00'),
+('27', 'CD3456IJ', 'lantai 3', '2024-10-10 16:00:00'),
+('28', 'EF2345MN', 'lantai 4', '2024-10-10 17:00:00'),
+('29', 'KL0123QR', 'rooftop', '2024-10-10 17:00:00'),
+('30', 'OP8901UV', 'Underground1', '2024-10-10 17:00:00'),
+('31', 'ST6789YZ', 'Underground2', '2024-10-10 18:00:00'),
+('32', 'WX5678CD', 'Underground3', '2024-10-10 18:00:00'),
+('33', 'AB3456GH', 'lantai 1','2024-10-10 18:00:00'),
+('34', 'EF1234KL', 'lantai 2','2024-10-10 19:00:00'),
+-- Lanjutan dari id_transaksi ke-35 sampai ke-100
+('35', 'IJ9012OP', 'lantai 3', '2024-10-10 19:00:00'),
+('36', 'MN7890ST', 'lantai 4', '2024-10-10 19:00:00'),
+('37', 'QR5678WX', 'rooftop', '2024-10-10 20:00:00'),
+('38', 'UV3456AB', 'Underground1', '2024-10-10 20:00:00'),
+('39', 'YZ1234EF', 'Underground2', '2024-10-11 08:00:00'),
+('40', 'CD9012IJ', 'Underground3', '2024-10-11 08:00:00'),
+('41', 'GH7890MN', 'lantai 1', '2024-10-11 08:00:00'),
+('42', 'KL5678QR', 'lantai 2', '2024-10-11 08:00:00'),
+('43', 'OP3456UV', 'lantai 3', '2024-10-11 09:00:00'),
+('44', 'ST1234YZ', 'lantai 4', '2024-10-11 09:00:00'),
+('45', 'WX9012CD', 'rooftop', '2024-10-11 09:00:00'),
+('46', 'AB7890GH', 'Underground1', '2024-10-11 09:00:00'),
+('47', 'EF5678KL', 'Underground2', '2024-10-11 10:00:00'),
+('48', 'IJ3456OP', 'Underground3', '2024-10-11 10:00:00'),
+('49', 'MN4569OP', 'lantai 1', '2024-10-11 10:00:00'),
+('50', 'RT1089AG', 'lantai 2', '2024-10-11 10:00:00'),
+('51', 'XY5678EF', 'lantai 3', '2024-10-11 11:00:00'),
+('52', 'CD3456IJ', 'lantai 4', '2024-10-11 11:00:00'),
+('53', 'EF2345MN', 'rooftop', '2024-10-11 11:00:00'),
+('54', 'KL0123QR', 'Underground1', '2024-10-11 11:00:00'),
+('55', 'OP8901UV', 'Underground2', '2024-10-11 12:00:00'),
+('56', 'ST6789YZ', 'Underground3', '2024-10-11 12:00:00'),
+('57', 'WX5678CD', 'lantai 1', '2024-10-11 12:00:00'),
+('58', 'AB3456GH', 'lantai 2', '2024-10-11 12:00:00'),
+('59', 'EF1234KL', 'lantai 3', '2024-10-11 13:00:00'),
+('60', 'IJ9012OP', 'lantai 4', '2024-10-11 13:00:00'),
+('61', 'MN7890ST', 'rooftop', '2024-10-11 13:00:00'),
+('62', 'QR5678WX', 'Underground1', '2024-10-11 13:00:00'),
+('63', 'UV3456AB', 'Underground2', '2024-10-11 14:00:00'),
+('64', 'YZ1234EF', 'Underground3', '2024-10-11 14:00:00'),
+('65', 'CD9012IJ', 'lantai 1', '2024-10-11 14:00:00'),
+('66', 'GH7890MN', 'lantai 2', '2024-10-11 14:00:00'),
+('67', 'KL5678QR', 'lantai 3', '2024-10-11 15:00:00'),
+('68', 'OP3456UV', 'lantai 4', '2024-10-11 15:00:00'),
+('69', 'ST1234YZ', 'rooftop', '2024-10-11 15:00:00'),
+('70', 'WX9012CD', 'Underground1', '2024-10-11 15:00:00'),
+('71', 'AB7890GH', 'Underground2', '2024-10-11 16:00:00'),
+('72', 'EF5678KL', 'Underground3', '2024-10-11 16:00:00'),
+('73', 'IJ3456OP', 'lantai 1', '2024-10-11 16:00:00'),
+('74', 'MN4569OP', 'lantai 2', '2024-10-11 16:00:00'),
+('75', 'RT1089AG', 'lantai 3', '2024-10-11 17:00:00'),
+('76', 'XY5678EF', 'lantai 4', '2024-10-11 17:00:00'),
+('77', 'CD3456IJ', 'rooftop', '2024-10-11 17:00:00'),
+('78', 'EF2345MN', 'Underground1', '2024-10-11 17:00:00'),
+('79', 'KL0123QR', 'Underground2', '2024-10-11 18:00:00'),
+('80', 'OP8901UV', 'Underground3', '2024-10-11 18:00:00'),
+('81', 'ST6789YZ', 'lantai 1', '2024-10-11 18:00:00'),
+('82', 'WX5678CD', 'lantai 2', '2024-10-11 18:00:00'),
+('83', 'AB3456GH', 'lantai 3', '2024-10-11 19:00:00'),
+('84', 'EF1234KL', 'lantai 4', '2024-10-11 19:00:00'),
+('85', 'IJ9012OP', 'rooftop', '2024-10-11 19:00:00'),
+('86', 'MN7890ST', 'Underground1', '2024-10-11 19:00:00'),
+('87', 'QR5678WX', 'Underground2', '2024-10-11 20:00:00'),
+('88', 'UV3456AB', 'Underground3', '2024-10-11 20:00:00'),
+('89', 'YZ1234EF', 'lantai 1', '2024-10-11 20:00:00'),
+('90', 'CD9012IJ', 'lantai 2', '2024-10-11 20:00:00'),
+('91', 'GH7890MN', 'lantai 3', '2024-10-12 08:00:00'),
+('92', 'KL5678QR', 'lantai 4', '2024-10-12 08:00:00'),
+('93', 'OP3456UV', 'rooftop', '2024-10-12 08:00:00'),
+('94', 'ST1234YZ', 'Underground1', '2024-10-12 08:00:00'),
+('95', 'WX9012CD', 'Underground2', '2024-10-12 09:00:00'),
+('96', 'AB7890GH', 'Underground3', '2024-10-12 09:00:00'),
+('97', 'EF5678KL', 'lantai 1', '2024-10-12 09:00:00'),
+('98', 'IJ3456OP', 'lantai 2', '2024-10-12 09:00:00'),
+('99', 'MN4569OP', 'lantai 3', '2024-10-12 10:00:00'),
+('100', 'RT1089AG', 'lantai 4', '2024-10-12 10:00:00');
+
+select * from t_transaksi_motor ttm ;
+
