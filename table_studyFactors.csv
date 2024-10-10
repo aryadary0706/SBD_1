@@ -1,0 +1,1001 @@
+﻿ID_students,parental level of education,lunch,test preparation course
+1,bachelor's degree,standard,none
+2,some college,standard,completed
+3,master's degree,standard,none
+4,associate's degree,free/reduced,none
+5,some college,standard,none
+6,associate's degree,standard,none
+7,some college,standard,completed
+8,some college,free/reduced,none
+9,high school,free/reduced,completed
+10,high school,free/reduced,none
+11,associate's degree,standard,none
+12,associate's degree,standard,none
+13,high school,standard,none
+14,some college,standard,completed
+15,master's degree,standard,none
+16,some high school,standard,none
+17,high school,standard,none
+18,some high school,free/reduced,none
+19,master's degree,free/reduced,completed
+20,associate's degree,free/reduced,none
+21,high school,standard,none
+22,some college,free/reduced,completed
+23,some college,standard,none
+24,some high school,standard,none
+25,bachelor's degree,free/reduced,completed
+26,master's degree,free/reduced,none
+27,some college,standard,none
+28,bachelor's degree,standard,none
+29,high school,standard,none
+30,master's degree,standard,none
+31,some college,standard,none
+32,some college,standard,none
+33,master's degree,free/reduced,none
+34,some college,standard,none
+35,some college,standard,none
+36,associate's degree,standard,completed
+37,associate's degree,standard,none
+38,some high school,free/reduced,none
+39,associate's degree,free/reduced,completed
+40,associate's degree,free/reduced,none
+41,associate's degree,free/reduced,none
+42,associate's degree,standard,none
+43,associate's degree,standard,none
+44,some college,free/reduced,completed
+45,associate's degree,free/reduced,none
+46,associate's degree,standard,none
+47,associate's degree,standard,completed
+48,high school,standard,none
+49,associate's degree,free/reduced,completed
+50,high school,standard,completed
+51,some college,standard,none
+52,associate's degree,free/reduced,completed
+53,some college,standard,none
+54,high school,standard,none
+55,some high school,free/reduced,completed
+56,high school,free/reduced,none
+57,associate's degree,standard,completed
+58,associate's degree,standard,none
+59,some college,standard,completed
+60,some high school,free/reduced,none
+61,bachelor's degree,free/reduced,completed
+62,some high school,free/reduced,none
+63,associate's degree,free/reduced,none
+64,associate's degree,standard,none
+65,some high school,standard,none
+66,some high school,standard,none
+67,some high school,free/reduced,none
+68,some college,standard,none
+69,associate's degree,free/reduced,none
+70,associate's degree,standard,none
+71,some college,free/reduced,completed
+72,some college,standard,completed
+73,associate's degree,free/reduced,none
+74,some high school,free/reduced,none
+75,some high school,standard,none
+76,associate's degree,free/reduced,none
+77,some high school,standard,none
+78,bachelor's degree,standard,completed
+79,some high school,standard,completed
+80,master's degree,standard,none
+81,associate's degree,standard,none
+82,high school,free/reduced,none
+83,some college,free/reduced,completed
+84,associate's degree,standard,none
+85,high school,free/reduced,none
+86,some college,standard,none
+87,some college,free/reduced,none
+88,associate's degree,standard,none
+89,some college,standard,none
+90,some high school,standard,none
+91,bachelor's degree,standard,none
+92,high school,free/reduced,none
+93,high school,standard,none
+94,associate's degree,free/reduced,completed
+95,some college,standard,none
+96,associate's degree,free/reduced,completed
+97,some high school,standard,completed
+98,some college,standard,completed
+99,some college,free/reduced,none
+100,bachelor's degree,standard,none
+101,some college,standard,none
+102,bachelor's degree,standard,completed
+103,associate's degree,standard,none
+104,high school,standard,completed
+105,some college,standard,completed
+106,some college,standard,none
+107,master's degree,standard,none
+108,associate's degree,standard,completed
+109,associate's degree,free/reduced,none
+110,some high school,standard,none
+111,associate's degree,free/reduced,completed
+112,high school,standard,none
+113,associate's degree,standard,none
+114,some college,standard,none
+115,bachelor's degree,standard,completed
+116,high school,standard,none
+117,bachelor's degree,free/reduced,none
+118,bachelor's degree,standard,none
+119,some high school,standard,none
+120,some college,standard,none
+121,bachelor's degree,standard,completed
+122,associate's degree,standard,completed
+123,some college,standard,completed
+124,high school,free/reduced,none
+125,some college,standard,none
+126,high school,standard,none
+127,some high school,standard,none
+128,some college,standard,completed
+129,master's degree,standard,none
+130,bachelor's degree,standard,none
+131,master's degree,standard,none
+132,some high school,free/reduced,completed
+133,some college,free/reduced,completed
+134,some college,standard,completed
+135,bachelor's degree,free/reduced,completed
+136,bachelor's degree,standard,none
+137,some high school,standard,completed
+138,high school,standard,none
+139,associate's degree,standard,none
+140,some college,standard,completed
+141,some high school,standard,none
+142,some college,free/reduced,none
+143,some college,free/reduced,completed
+144,high school,standard,none
+145,some college,standard,none
+146,some college,free/reduced,none
+147,some high school,standard,none
+148,associate's degree,free/reduced,none
+149,bachelor's degree,standard,completed
+150,associate's degree,free/reduced,completed
+151,some high school,standard,completed
+152,bachelor's degree,standard,none
+153,associate's degree,standard,completed
+154,bachelor's degree,standard,none
+155,some high school,standard,none
+156,some college,standard,completed
+157,high school,free/reduced,completed
+158,some college,free/reduced,none
+159,associate's degree,standard,completed
+160,associate's degree,free/reduced,none
+161,associate's degree,free/reduced,completed
+162,some college,free/reduced,completed
+163,master's degree,free/reduced,none
+164,high school,standard,none
+165,master's degree,standard,none
+166,bachelor's degree,standard,completed
+167,high school,free/reduced,completed
+168,master's degree,free/reduced,completed
+169,high school,standard,completed
+170,some college,free/reduced,completed
+171,high school,standard,completed
+172,some high school,standard,none
+173,some college,standard,none
+174,associate's degree,standard,none
+175,bachelor's degree,free/reduced,completed
+176,master's degree,standard,completed
+177,high school,free/reduced,completed
+178,associate's degree,standard,completed
+179,master's degree,free/reduced,completed
+180,some high school,standard,completed
+181,master's degree,free/reduced,completed
+182,some college,free/reduced,none
+183,high school,standard,none
+184,associate's degree,standard,none
+185,some high school,free/reduced,completed
+186,associate's degree,free/reduced,completed
+187,high school,standard,none
+188,some high school,standard,completed
+189,some high school,free/reduced,none
+190,bachelor's degree,standard,none
+191,associate's degree,standard,none
+192,some college,standard,completed
+193,some high school,standard,none
+194,some college,standard,completed
+195,master's degree,standard,completed
+196,associate's degree,standard,none
+197,some high school,free/reduced,completed
+198,high school,free/reduced,none
+199,some college,free/reduced,none
+200,bachelor's degree,free/reduced,none
+201,associate's degree,standard,completed
+202,some college,free/reduced,none
+203,associate's degree,standard,none
+204,associate's degree,standard,none
+205,some college,standard,none
+206,some high school,standard,completed
+207,bachelor's degree,standard,none
+208,high school,standard,completed
+209,some college,free/reduced,none
+210,some college,free/reduced,none
+211,some high school,free/reduced,completed
+212,some college,free/reduced,none
+213,high school,free/reduced,none
+214,associate's degree,free/reduced,completed
+215,high school,standard,completed
+216,some high school,standard,completed
+217,associate's degree,free/reduced,completed
+218,high school,free/reduced,none
+219,high school,free/reduced,none
+220,some high school,standard,completed
+221,high school,standard,completed
+222,associate's degree,standard,none
+223,some high school,free/reduced,none
+224,some high school,standard,none
+225,associate's degree,standard,completed
+226,master's degree,free/reduced,none
+227,some college,standard,none
+228,high school,standard,none
+229,some high school,free/reduced,none
+230,some college,standard,completed
+231,some college,standard,none
+232,associate's degree,standard,none
+233,bachelor's degree,standard,none
+234,some high school,standard,none
+235,bachelor's degree,standard,completed
+236,associate's degree,standard,none
+237,bachelor's degree,free/reduced,none
+238,some high school,standard,completed
+239,some college,standard,none
+240,associate's degree,standard,none
+241,high school,free/reduced,completed
+242,bachelor's degree,standard,none
+243,high school,standard,none
+244,some college,standard,none
+245,some high school,standard,none
+246,associate's degree,standard,none
+247,associate's degree,standard,none
+248,high school,standard,completed
+249,high school,standard,none
+250,high school,standard,none
+251,some high school,standard,completed
+252,some college,free/reduced,none
+253,some high school,standard,completed
+254,master's degree,standard,none
+255,high school,standard,none
+256,some college,standard,none
+257,associate's degree,free/reduced,none
+258,associate's degree,standard,completed
+259,some college,standard,none
+260,master's degree,free/reduced,completed
+261,some high school,free/reduced,completed
+262,some college,standard,completed
+263,some high school,free/reduced,none
+264,high school,standard,none
+265,high school,standard,none
+266,some high school,free/reduced,none
+267,bachelor's degree,standard,none
+268,high school,standard,none
+269,associate's degree,standard,completed
+270,some college,free/reduced,none
+271,bachelor's degree,standard,none
+272,some college,standard,none
+273,associate's degree,free/reduced,none
+274,some college,standard,none
+275,some college,standard,completed
+276,bachelor's degree,standard,none
+277,some high school,standard,completed
+278,high school,standard,completed
+279,some high school,free/reduced,none
+280,bachelor's degree,free/reduced,none
+281,high school,standard,none
+282,high school,standard,none
+283,bachelor's degree,free/reduced,none
+284,some college,free/reduced,completed
+285,some high school,standard,none
+286,associate's degree,standard,completed
+287,associate's degree,standard,completed
+288,some high school,standard,none
+289,bachelor's degree,free/reduced,none
+290,some high school,standard,completed
+291,associate's degree,standard,none
+292,some high school,standard,none
+293,some high school,standard,completed
+294,bachelor's degree,standard,none
+295,high school,free/reduced,completed
+296,associate's degree,free/reduced,none
+297,some high school,standard,completed
+298,associate's degree,standard,completed
+299,high school,free/reduced,completed
+300,associate's degree,free/reduced,none
+301,some college,free/reduced,completed
+302,some high school,free/reduced,none
+303,associate's degree,standard,completed
+304,associate's degree,standard,none
+305,associate's degree,standard,completed
+306,some college,standard,none
+307,some college,standard,completed
+308,some high school,standard,none
+309,associate's degree,free/reduced,none
+310,high school,free/reduced,none
+311,associate's degree,standard,none
+312,bachelor's degree,standard,none
+313,bachelor's degree,standard,completed
+314,associate's degree,free/reduced,completed
+315,bachelor's degree,standard,completed
+316,high school,standard,none
+317,master's degree,standard,completed
+318,associate's degree,standard,none
+319,bachelor's degree,standard,none
+320,associate's degree,free/reduced,none
+321,high school,free/reduced,completed
+322,high school,standard,none
+323,some college,standard,none
+324,some high school,free/reduced,none
+325,high school,free/reduced,none
+326,some college,standard,none
+327,some college,standard,none
+328,some college,free/reduced,none
+329,associate's degree,standard,completed
+330,some high school,standard,none
+331,high school,standard,none
+332,associate's degree,standard,none
+333,associate's degree,standard,completed
+334,associate's degree,standard,none
+335,bachelor's degree,standard,none
+336,some college,free/reduced,none
+337,some high school,standard,completed
+338,associate's degree,standard,none
+339,some high school,free/reduced,none
+340,some high school,free/reduced,completed
+341,high school,free/reduced,none
+342,high school,standard,none
+343,high school,standard,completed
+344,associate's degree,standard,completed
+345,some college,standard,none
+346,high school,standard,none
+347,some college,standard,none
+348,bachelor's degree,standard,completed
+349,high school,free/reduced,none
+350,associate's degree,standard,none
+351,bachelor's degree,standard,none
+352,some college,standard,none
+353,some college,standard,completed
+354,associate's degree,standard,none
+355,some college,standard,none
+356,bachelor's degree,standard,none
+357,associate's degree,standard,none
+358,some college,free/reduced,completed
+359,some college,free/reduced,none
+360,some college,standard,none
+361,high school,standard,none
+362,some high school,standard,completed
+363,some college,standard,none
+364,some high school,free/reduced,none
+365,some college,standard,none
+366,bachelor's degree,free/reduced,completed
+367,high school,standard,completed
+368,bachelor's degree,free/reduced,none
+369,some high school,free/reduced,none
+370,some high school,standard,none
+371,some college,standard,none
+372,some college,free/reduced,completed
+373,some high school,standard,none
+374,some college,standard,completed
+375,bachelor's degree,standard,none
+376,associate's degree,free/reduced,none
+377,some high school,standard,none
+378,master's degree,free/reduced,completed
+379,some high school,standard,none
+380,bachelor's degree,standard,none
+381,associate's degree,standard,none
+382,associate's degree,standard,completed
+383,master's degree,free/reduced,none
+384,some high school,free/reduced,none
+385,some high school,free/reduced,none
+386,some college,standard,none
+387,bachelor's degree,standard,none
+388,associate's degree,free/reduced,none
+389,high school,standard,none
+390,master's degree,standard,none
+391,some high school,free/reduced,completed
+392,some college,standard,none
+393,some college,standard,none
+394,associate's degree,standard,completed
+395,some high school,standard,completed
+396,high school,free/reduced,none
+397,high school,free/reduced,none
+398,associate's degree,standard,none
+399,some high school,standard,none
+400,some high school,standard,none
+401,some high school,standard,completed
+402,some college,standard,none
+403,some college,free/reduced,none
+404,high school,standard,completed
+405,high school,standard,none
+406,some high school,standard,none
+407,associate's degree,standard,completed
+408,associate's degree,standard,none
+409,high school,free/reduced,completed
+410,associate's degree,standard,completed
+411,master's degree,standard,completed
+412,some college,standard,completed
+413,associate's degree,standard,none
+414,some high school,standard,completed
+415,bachelor's degree,free/reduced,completed
+416,high school,standard,none
+417,bachelor's degree,standard,completed
+418,associate's degree,standard,none
+419,some college,standard,none
+420,high school,free/reduced,completed
+421,associate's degree,free/reduced,completed
+422,high school,standard,completed
+423,master's degree,free/reduced,completed
+424,some high school,standard,completed
+425,some college,free/reduced,none
+426,some college,free/reduced,none
+427,bachelor's degree,standard,none
+428,some high school,free/reduced,none
+429,some high school,free/reduced,none
+430,some high school,free/reduced,none
+431,associate's degree,free/reduced,none
+432,high school,standard,none
+433,high school,standard,none
+434,some high school,free/reduced,none
+435,some high school,standard,none
+436,some college,free/reduced,completed
+437,associate's degree,standard,none
+438,associate's degree,free/reduced,none
+439,high school,standard,none
+440,some high school,standard,completed
+441,some college,standard,completed
+442,high school,standard,none
+443,some high school,free/reduced,none
+444,associate's degree,standard,none
+445,some high school,free/reduced,none
+446,some high school,standard,completed
+447,some college,free/reduced,none
+448,high school,standard,completed
+449,high school,standard,none
+450,associate's degree,standard,none
+451,some college,free/reduced,completed
+452,some college,standard,none
+453,associate's degree,free/reduced,none
+454,some college,free/reduced,none
+455,associate's degree,free/reduced,none
+456,bachelor's degree,free/reduced,none
+457,bachelor's degree,standard,none
+458,associate's degree,free/reduced,none
+459,bachelor's degree,standard,none
+460,high school,standard,completed
+461,bachelor's degree,free/reduced,none
+462,some college,free/reduced,none
+463,some college,standard,none
+464,some college,free/reduced,none
+465,bachelor's degree,standard,completed
+466,some college,standard,none
+467,associate's degree,free/reduced,none
+468,high school,free/reduced,completed
+469,high school,free/reduced,completed
+470,some college,standard,none
+471,associate's degree,standard,completed
+472,high school,standard,none
+473,associate's degree,standard,completed
+474,some high school,standard,none
+475,associate's degree,standard,completed
+476,bachelor's degree,standard,completed
+477,bachelor's degree,standard,completed
+478,associate's degree,standard,none
+479,master's degree,standard,none
+480,associate's degree,standard,none
+481,high school,standard,completed
+482,associate's degree,free/reduced,none
+483,some college,free/reduced,none
+484,high school,standard,none
+485,associate's degree,standard,none
+486,high school,standard,none
+487,some college,free/reduced,none
+488,associate's degree,free/reduced,none
+489,some high school,standard,completed
+490,associate's degree,free/reduced,completed
+491,associate's degree,free/reduced,none
+492,associate's degree,standard,none
+493,some college,standard,none
+494,bachelor's degree,standard,none
+495,high school,standard,none
+496,high school,standard,completed
+497,some college,standard,none
+498,some college,free/reduced,completed
+499,some high school,standard,none
+500,some college,standard,none
+501,master's degree,standard,none
+502,associate's degree,standard,completed
+503,some college,free/reduced,none
+504,associate's degree,standard,completed
+505,master's degree,free/reduced,none
+506,some high school,standard,none
+507,high school,standard,none
+508,bachelor's degree,free/reduced,none
+509,master's degree,standard,none
+510,bachelor's degree,standard,none
+511,some college,standard,none
+512,some high school,standard,none
+513,some high school,free/reduced,none
+514,some high school,standard,completed
+515,master's degree,free/reduced,completed
+516,some high school,standard,completed
+517,some college,standard,none
+518,some college,standard,completed
+519,some high school,standard,completed
+520,high school,free/reduced,completed
+521,some college,standard,none
+522,associate's degree,standard,none
+523,bachelor's degree,standard,none
+524,master's degree,free/reduced,none
+525,high school,standard,completed
+526,some college,standard,none
+527,some high school,free/reduced,completed
+528,high school,free/reduced,none
+529,bachelor's degree,free/reduced,none
+530,associate's degree,standard,none
+531,associate's degree,standard,completed
+532,some high school,standard,none
+533,associate's degree,standard,completed
+534,associate's degree,standard,completed
+535,high school,standard,completed
+536,bachelor's degree,free/reduced,completed
+537,associate's degree,standard,completed
+538,high school,standard,none
+539,bachelor's degree,standard,completed
+540,associate's degree,standard,completed
+541,high school,standard,completed
+542,associate's degree,free/reduced,completed
+543,associate's degree,standard,none
+544,associate's degree,standard,none
+545,master's degree,standard,none
+546,some high school,free/reduced,completed
+547,some high school,standard,completed
+548,high school,standard,completed
+549,high school,free/reduced,none
+550,master's degree,standard,none
+551,some high school,free/reduced,none
+552,bachelor's degree,free/reduced,completed
+553,associate's degree,standard,none
+554,some college,free/reduced,none
+555,associate's degree,standard,none
+556,some college,free/reduced,none
+557,associate's degree,standard,completed
+558,master's degree,free/reduced,none
+559,associate's degree,free/reduced,none
+560,some high school,standard,none
+561,some college,standard,completed
+562,some college,standard,none
+563,bachelor's degree,standard,completed
+564,some college,free/reduced,completed
+565,bachelor's degree,free/reduced,none
+566,associate's degree,standard,none
+567,bachelor's degree,free/reduced,completed
+568,master's degree,free/reduced,completed
+569,high school,free/reduced,none
+570,bachelor's degree,free/reduced,none
+571,some college,standard,completed
+572,bachelor's degree,standard,none
+573,some college,standard,none
+574,high school,free/reduced,completed
+575,high school,standard,none
+576,associate's degree,free/reduced,completed
+577,some college,standard,completed
+578,high school,standard,none
+579,some college,free/reduced,completed
+580,master's degree,standard,none
+581,some high school,standard,none
+582,some high school,standard,none
+583,bachelor's degree,free/reduced,none
+584,associate's degree,standard,completed
+585,some college,standard,none
+586,associate's degree,standard,none
+587,high school,standard,none
+588,bachelor's degree,free/reduced,none
+589,some college,standard,none
+590,some high school,standard,none
+591,some college,free/reduced,none
+592,some high school,standard,none
+593,bachelor's degree,standard,none
+594,high school,standard,none
+595,bachelor's degree,standard,completed
+596,bachelor's degree,standard,completed
+597,high school,free/reduced,none
+598,some high school,standard,none
+599,high school,standard,none
+600,some high school,standard,none
+601,master's degree,standard,none
+602,high school,standard,none
+603,some college,standard,none
+604,high school,free/reduced,none
+605,master's degree,free/reduced,completed
+606,some high school,standard,none
+607,associate's degree,standard,none
+608,master's degree,free/reduced,none
+609,some college,standard,none
+610,associate's degree,standard,none
+611,some college,free/reduced,completed
+612,some college,standard,none
+613,bachelor's degree,standard,completed
+614,associate's degree,standard,none
+615,associate's degree,standard,none
+616,high school,standard,none
+617,bachelor's degree,standard,none
+618,bachelor's degree,standard,none
+619,master's degree,standard,none
+620,associate's degree,free/reduced,completed
+621,high school,free/reduced,none
+622,bachelor's degree,free/reduced,none
+623,high school,free/reduced,completed
+624,some college,standard,completed
+625,bachelor's degree,free/reduced,none
+626,some college,standard,completed
+627,associate's degree,free/reduced,completed
+628,associate's degree,standard,none
+629,some college,free/reduced,none
+630,some high school,standard,completed
+631,some college,standard,none
+632,high school,standard,none
+633,bachelor's degree,standard,completed
+634,high school,standard,none
+635,some high school,standard,none
+636,high school,standard,none
+637,high school,free/reduced,completed
+638,some high school,standard,completed
+639,some college,standard,none
+640,associate's degree,standard,none
+641,high school,standard,none
+642,associate's degree,free/reduced,completed
+643,some high school,free/reduced,none
+644,high school,standard,completed
+645,high school,standard,none
+646,bachelor's degree,standard,completed
+647,associate's degree,standard,none
+648,high school,free/reduced,none
+649,high school,standard,none
+650,some college,standard,completed
+651,some high school,free/reduced,completed
+652,high school,standard,completed
+653,some college,standard,completed
+654,associate's degree,standard,completed
+655,some high school,standard,none
+656,some college,standard,none
+657,associate's degree,free/reduced,none
+658,some high school,standard,none
+659,associate's degree,free/reduced,none
+660,associate's degree,standard,none
+661,some college,free/reduced,none
+662,some high school,standard,none
+663,some college,free/reduced,none
+664,high school,standard,none
+665,associate's degree,standard,none
+666,some high school,free/reduced,completed
+667,some college,free/reduced,completed
+668,bachelor's degree,free/reduced,none
+669,some college,standard,none
+670,associate's degree,standard,completed
+671,high school,free/reduced,none
+672,associate's degree,free/reduced,none
+673,some college,standard,none
+674,associate's degree,standard,completed
+675,high school,standard,completed
+676,some college,standard,completed
+677,some college,standard,completed
+678,some high school,standard,completed
+679,associate's degree,free/reduced,none
+680,some college,free/reduced,none
+681,high school,standard,none
+682,high school,standard,none
+683,high school,standard,none
+684,some high school,free/reduced,completed
+685,some college,standard,completed
+686,master's degree,standard,completed
+687,some college,standard,completed
+688,associate's degree,free/reduced,none
+689,high school,free/reduced,none
+690,some college,free/reduced,none
+691,associate's degree,standard,none
+692,associate's degree,free/reduced,none
+693,bachelor's degree,free/reduced,completed
+694,associate's degree,standard,none
+695,some high school,standard,none
+696,some college,free/reduced,none
+697,associate's degree,standard,completed
+698,bachelor's degree,standard,none
+699,associate's degree,standard,completed
+700,high school,free/reduced,none
+701,bachelor's degree,standard,completed
+702,some high school,standard,none
+703,bachelor's degree,standard,completed
+704,some college,standard,none
+705,some high school,free/reduced,completed
+706,bachelor's degree,free/reduced,none
+707,high school,standard,none
+708,some college,standard,none
+709,high school,standard,none
+710,associate's degree,free/reduced,completed
+711,some college,standard,completed
+712,some high school,standard,completed
+713,some college,standard,none
+714,master's degree,standard,none
+715,some high school,standard,completed
+716,associate's degree,free/reduced,completed
+717,associate's degree,standard,completed
+718,associate's degree,standard,completed
+719,high school,standard,none
+720,associate's degree,free/reduced,completed
+721,some college,free/reduced,none
+722,some high school,free/reduced,completed
+723,some high school,free/reduced,completed
+724,high school,standard,none
+725,some college,standard,none
+726,some college,standard,completed
+727,associate's degree,standard,completed
+728,some high school,standard,completed
+729,high school,free/reduced,none
+730,some college,standard,none
+731,associate's degree,free/reduced,completed
+732,some high school,free/reduced,none
+733,some college,standard,completed
+734,some high school,standard,none
+735,some college,free/reduced,none
+736,master's degree,standard,none
+737,associate's degree,standard,none
+738,some college,free/reduced,completed
+739,associate's degree,standard,none
+740,high school,free/reduced,none
+741,bachelor's degree,standard,none
+742,associate's degree,free/reduced,none
+743,high school,standard,none
+744,associate's degree,standard,completed
+745,some college,free/reduced,none
+746,associate's degree,standard,none
+747,high school,standard,none
+748,some college,standard,none
+749,bachelor's degree,free/reduced,none
+750,some college,standard,completed
+751,some high school,standard,completed
+752,some college,standard,none
+753,master's degree,free/reduced,completed
+754,some high school,standard,completed
+755,associate's degree,free/reduced,none
+756,associate's degree,standard,none
+757,some college,standard,none
+758,bachelor's degree,free/reduced,completed
+759,some college,free/reduced,completed
+760,some college,standard,completed
+761,high school,free/reduced,none
+762,some high school,standard,none
+763,some high school,standard,completed
+764,high school,standard,none
+765,some college,standard,none
+766,high school,standard,none
+767,high school,standard,completed
+768,high school,standard,completed
+769,some high school,standard,none
+770,some college,free/reduced,none
+771,high school,standard,none
+772,bachelor's degree,standard,none
+773,some high school,free/reduced,completed
+774,bachelor's degree,free/reduced,none
+775,some college,standard,none
+776,some high school,free/reduced,none
+777,high school,standard,none
+778,some college,free/reduced,none
+779,some college,standard,completed
+780,associate's degree,standard,completed
+781,associate's degree,free/reduced,none
+782,master's degree,standard,none
+783,high school,free/reduced,completed
+784,associate's degree,standard,completed
+785,bachelor's degree,standard,completed
+786,some high school,standard,completed
+787,some high school,free/reduced,none
+788,some college,standard,none
+789,associate's degree,free/reduced,none
+790,master's degree,free/reduced,none
+791,high school,standard,none
+792,some college,free/reduced,none
+793,high school,free/reduced,none
+794,some high school,standard,completed
+795,high school,standard,none
+796,associate's degree,free/reduced,completed
+797,high school,standard,none
+798,associate's degree,free/reduced,none
+799,some college,standard,none
+800,associate's degree,standard,none
+801,some high school,standard,completed
+802,some high school,standard,completed
+803,associate's degree,standard,none
+804,some college,standard,none
+805,some college,standard,none
+806,some college,free/reduced,none
+807,some college,free/reduced,none
+808,high school,free/reduced,none
+809,high school,standard,none
+810,bachelor's degree,standard,none
+811,some high school,standard,none
+812,high school,free/reduced,none
+813,master's degree,standard,completed
+814,some high school,standard,completed
+815,high school,standard,none
+816,some high school,standard,completed
+817,bachelor's degree,standard,none
+818,bachelor's degree,free/reduced,completed
+819,high school,free/reduced,none
+820,some high school,standard,none
+821,some high school,standard,completed
+822,bachelor's degree,free/reduced,none
+823,some college,free/reduced,completed
+824,high school,free/reduced,none
+825,some high school,free/reduced,none
+826,high school,standard,none
+827,associate's degree,free/reduced,completed
+828,some high school,standard,none
+829,some high school,free/reduced,completed
+830,some high school,standard,none
+831,some college,free/reduced,none
+832,bachelor's degree,free/reduced,completed
+833,bachelor's degree,standard,none
+834,high school,standard,completed
+835,some college,standard,none
+836,high school,standard,completed
+837,high school,standard,none
+838,high school,standard,completed
+839,associate's degree,free/reduced,completed
+840,associate's degree,standard,none
+841,high school,free/reduced,none
+842,some high school,standard,none
+843,high school,free/reduced,completed
+844,some college,free/reduced,completed
+845,some high school,free/reduced,completed
+846,master's degree,standard,none
+847,master's degree,standard,completed
+848,high school,standard,none
+849,high school,standard,none
+850,associate's degree,standard,none
+851,master's degree,standard,none
+852,high school,standard,none
+853,some college,standard,none
+854,some high school,standard,none
+855,some high school,standard,none
+856,bachelor's degree,standard,none
+857,some college,free/reduced,none
+858,bachelor's degree,standard,none
+859,high school,standard,completed
+860,associate's degree,free/reduced,none
+861,associate's degree,standard,none
+862,master's degree,free/reduced,none
+863,bachelor's degree,free/reduced,completed
+864,some college,standard,completed
+865,associate's degree,standard,none
+866,some college,standard,completed
+867,high school,free/reduced,none
+868,associate's degree,standard,none
+869,associate's degree,free/reduced,completed
+870,associate's degree,free/reduced,none
+871,high school,standard,none
+872,some college,standard,completed
+873,associate's degree,standard,completed
+874,associate's degree,free/reduced,none
+875,bachelor's degree,free/reduced,none
+876,some college,free/reduced,none
+877,some college,standard,none
+878,some high school,standard,none
+879,some high school,standard,none
+880,associate's degree,standard,none
+881,bachelor's degree,standard,completed
+882,bachelor's degree,standard,completed
+883,high school,free/reduced,none
+884,bachelor's degree,free/reduced,none
+885,associate's degree,standard,none
+886,associate's degree,standard,completed
+887,associate's degree,standard,completed
+888,high school,free/reduced,none
+889,some college,free/reduced,none
+890,high school,free/reduced,none
+891,some college,standard,completed
+892,associate's degree,standard,none
+893,master's degree,free/reduced,none
+894,some high school,standard,completed
+895,associate's degree,standard,none
+896,some high school,free/reduced,none
+897,high school,free/reduced,none
+898,some high school,free/reduced,completed
+899,associate's degree,standard,completed
+900,some high school,standard,completed
+901,master's degree,standard,none
+902,master's degree,standard,none
+903,high school,free/reduced,completed
+904,bachelor's degree,free/reduced,completed
+905,some high school,free/reduced,none
+906,some college,standard,none
+907,high school,standard,none
+908,some college,standard,completed
+909,bachelor's degree,free/reduced,none
+910,bachelor's degree,standard,completed
+911,bachelor's degree,free/reduced,none
+912,some college,standard,none
+913,bachelor's degree,standard,completed
+914,bachelor's degree,free/reduced,completed
+915,associate's degree,free/reduced,none
+916,some college,standard,none
+917,bachelor's degree,standard,completed
+918,high school,standard,none
+919,associate's degree,standard,completed
+920,some college,standard,completed
+921,high school,free/reduced,none
+922,high school,free/reduced,none
+923,high school,standard,none
+924,associate's degree,free/reduced,none
+925,high school,free/reduced,none
+926,some high school,standard,completed
+927,associate's degree,free/reduced,none
+928,high school,free/reduced,completed
+929,associate's degree,free/reduced,completed
+930,some high school,free/reduced,none
+931,some college,free/reduced,completed
+932,some college,free/reduced,none
+933,associate's degree,free/reduced,completed
+934,bachelor's degree,free/reduced,completed
+935,associate's degree,standard,completed
+936,some college,free/reduced,none
+937,associate's degree,standard,none
+938,high school,free/reduced,none
+939,some college,standard,completed
+940,some high school,standard,completed
+941,master's degree,free/reduced,completed
+942,master's degree,standard,none
+943,high school,standard,none
+944,some high school,free/reduced,completed
+945,high school,standard,none
+946,associate's degree,standard,none
+947,high school,standard,none
+948,some college,free/reduced,none
+949,some high school,free/reduced,completed
+950,high school,free/reduced,completed
+951,high school,standard,none
+952,some college,standard,completed
+953,some high school,free/reduced,none
+954,high school,standard,completed
+955,some college,standard,none
+956,associate's degree,standard,none
+957,some college,standard,none
+958,master's degree,standard,none
+959,high school,standard,none
+960,high school,standard,none
+961,some college,standard,none
+962,some high school,free/reduced,none
+963,associate's degree,standard,none
+964,some high school,free/reduced,completed
+965,some college,standard,none
+966,some college,standard,none
+967,some high school,standard,completed
+968,some college,standard,none
+969,associate's degree,standard,none
+970,bachelor's degree,standard,none
+971,bachelor's degree,standard,none
+972,some high school,standard,completed
+973,high school,free/reduced,completed
+974,some college,free/reduced,none
+975,some college,standard,none
+976,some college,standard,completed
+977,some college,free/reduced,completed
+978,associate's degree,standard,none
+979,high school,standard,completed
+980,associate's degree,standard,none
+981,high school,free/reduced,none
+982,some high school,standard,none
+983,some high school,standard,completed
+984,some college,standard,completed
+985,some high school,standard,none
+986,high school,standard,none
+987,associate's degree,standard,none
+988,some high school,standard,completed
+989,some high school,free/reduced,none
+990,some college,free/reduced,completed
+991,high school,free/reduced,completed
+992,some high school,standard,completed
+993,associate's degree,free/reduced,none
+994,bachelor's degree,free/reduced,none
+995,high school,standard,none
+996,master's degree,standard,completed
+997,high school,free/reduced,none
+998,high school,free/reduced,completed
+999,some college,standard,completed
+1000,some college,free/reduced,none
